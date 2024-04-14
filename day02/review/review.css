@@ -1,0 +1,36 @@
+.layout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.comment {
+  color: #1181ff;
+  font-size: 20px;
+}
+.register {
+  color: #1181ff;
+  width: 80px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #1181ff;
+  border-radius: 8px;
+  padding-top: 5x;
+  padding-bottom: 5px;
+}
+
+.fruit{
+    font-size: 30px;
+}
+.fruit > .apple {
+    color: red;
+}
+
+.fruit > .banana {
+    color: yellow;
+}
+
+.fruit > .orange {
+    color: orange;
+}
+
