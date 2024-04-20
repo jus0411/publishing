@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 500px;
+  border-radius: 20px;
+  background-image: url(background.jpg);
+  background-size: cover;
+  padding: 20px;
+}
+.musiccover {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  height: 40px;
+  border-radius: 90px;
+  background-image: url(charlie.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  align: center;
+  transform: translate(115%);
+  margin: 10px;
+}
+.name {
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.artist {
+  font-family: "JalnanGothic";
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+.butoon {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.button_a {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  padding: 15px 0;
+  border-radius: 30px;
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+  transform: translate(-5%);
+}
+.button_b {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  padding: 15px 0;
+  border-radius: 30px;
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+  transform: translate(-5%);
+}
+.button_c {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  padding: 15px 0;
+  border-radius: 30px;
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+  transform: translate(-5%);
+}
+.button_d {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  padding: 15px 0;
+  border-radius: 30px;
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+  transform: translate(-5%);
+}
+.social {
+  display: flex;
+  color: white;
+  width: 100px;
+  gap: 30px;
+  align-content: center;
+  transform: translate(60%);
+  margin: 20px;
+}
