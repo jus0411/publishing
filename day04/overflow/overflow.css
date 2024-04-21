@@ -1,0 +1,19 @@
+.container{
+    width: 500px;
+    height: 300px;
+    overflow : scroll;
+}
+.container ::-webkit-scrollbar{
+    display: ruby;
+}
+
+.wrapper{
+    display: flex;
+    width: 700px;
+    height: 100%;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
