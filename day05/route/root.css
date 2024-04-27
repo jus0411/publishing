@@ -1,0 +1,13 @@
+:root{
+    --font-primary : "Pretendard-Regular";
+
+    --max-width : 1024px;
+
+    --font-large : 24px;
+
+    --border-button-radius : 100px;
+
+    --border-button : 1px solid lightgray;
+
+    --color-gray;
+}

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'WAGURITTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+header{
+    top: 0px;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-family: 'WAGURITTF';
+}
+nav {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+nav > .logo{
+    width: fit-content;
+    width: 500px;
+    color: white;
+    font-size: 80px;
+    transform: translate(-80%, 120%);
+    border-radius: 30px;  
+}
+
+nav > .div{
+    display: flex;
+    gap: 30px;
+}
