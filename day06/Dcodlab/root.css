@@ -1,0 +1,11 @@
+:root {
+  --font-primary: "Pertendard-Regular";
+  --font-mega: 120px;
+  --font-super: 72px;
+  --font-large: 32px;
+  --font-regular: 24px;
+  --font-medium: 16px;
+  --font-small: 12px;
+
+  --width-max: 1200px;
+}
