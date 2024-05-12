@@ -1,0 +1,29 @@
+.floating-area {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.floating-area--button {
+  padding: 16px;
+  background-color: #ff5160;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  filter: drop-shadow(rgba(255, 81, 96, 0.5) 0px 4px 12px);
+}
+
+@media screen and (max-width: 1024px) {
+  .floating--area {
+    right: 0;
+    bottom: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  .floating-area--button {
+    width: 90%;
+  }
+}

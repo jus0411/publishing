@@ -1,0 +1,51 @@
+header {
+  width: 100vw;
+}
+
+nav {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+nav > ul {
+  display: flex;
+  gap: 4px;
+}
+
+nav > ul > li {
+  padding: 14px 16px;
+  border-radius: 20px;
+}
+
+nav > ul > li:hover {
+  background-color: var(--gray200);
+}
+
+.hamburger {
+  display: none;
+  padding: 20px 40px;
+  font-size: large;
+  color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
+  nav {
+    max-width: 628px;
+  }
+  nav > ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    max-width: 327px;
+  }
+}
